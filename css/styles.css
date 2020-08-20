@@ -7,6 +7,8 @@
 body {
   background-color: #e5e5e5;
   color: var(--primary-text-color);
+  font-family: Roboto;
+  font-style: normal;
 }
 
 ul {
@@ -82,8 +84,6 @@ ul {
 /* Features */
 .features-list .title {
   color: var(--title-text-color);
-  font-family: Roboto;
-  font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 16px;
@@ -93,8 +93,6 @@ ul {
 
 .features-list .text {
   color: var(--primary-text-color);
-  font-family: Roboto;
-  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
@@ -129,8 +127,6 @@ ul {
 /* Footer */
 .footer-addr {
   color: #ffffff;
-  font-family: Roboto;
-  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
@@ -140,15 +136,13 @@ ul {
   color: #2196f3;
 }
 
-..footer-links .footer-addr:active {
+.footer-links .footer-addr:active {
   color: #8b008b;
 }
 
 .footer-links .link {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
-  font-family: Roboto;
-  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
