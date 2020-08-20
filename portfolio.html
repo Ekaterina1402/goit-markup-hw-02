@@ -4,12 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Портфолио</title>
-    <link rel="stylesheet" href="./styles/normalize.css" />
-    <link rel="stylesheet" href="./css/styles.css" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto:wght@400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=fallback"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./styles/normalize.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!--Шапка сайта-->
@@ -43,8 +43,8 @@
     <!--Уникальный контент страницы-->
     <main>
       <!--Наши проекты-->
-      <section>
-        <h1>Список наших проектов</h1>
+      <section class="projects">
+        <h1 class="hidetitle">Список наших проектов</h1>
         <div class="button-links">
           <button type="button" class="link">Все</button>
           <button type="button" class="link">Веб-сайты</button>
@@ -53,61 +53,76 @@
           <button type="button" class="link">Маркетинг</button>
         </div>
 
-        <ul>
+        <ul class="projects-list">
           <li>
-            <a href="">
+            <a href="" class="projects-link">
               <img src="./images/img21.jpg" alt="Проект" width="370" />
+              <h2 class="title">Технокряк</h2>
+              <p class="text">Веб-сайт</p>
             </a>
-            <h2>Технокряк</h2>
-            <p>Веб-сайт</p>
           </li>
 
           <li>
-            <img src="./images/img22.jpg" alt="Проект" width="370" />
-            <h2>Постер New Orlean vs Golden Star</h2>
-            <p>Дизайн</p>
+            <a href="" class="projects-link">
+              <img src="./images/img22.jpg" alt="Проект" width="370" />
+              <h2 class="title">Постер New Orlean vs Golden Star</h2>
+              <p class="text">Дизайн</p>
+            </a>
           </li>
 
           <li>
-            <img src="./images/img23.jpg" alt="Проект" width="370" />
-            <h2>Ресторан Seafood</h2>
-            <p>Приложение</p>
+            <a href="" class="projects-link">
+              <img src="./images/img23.jpg" alt="Проект" width="370" />
+              <h2 class="title">Ресторан Seafood</h2>
+              <p class="text">Приложение</p>
+            </a>
           </li>
 
           <li>
-            <img src="./images/img24.jpg" alt="Проект" width="370" />
-            <h2>Проект Prime</h2>
-            <p>Маркетинг</p>
+            <a href="" class="projects-link">
+              <img src="./images/img24.jpg" alt="Проект" width="370" />
+              <h2 class="title">Проект Prime</h2>
+              <p class="text">Маркетинг</p>
+            </a>
           </li>
 
           <li>
-            <img src="./images/img25.jpg" alt="Проект" width="370" />
-            <h2>Проект Boxes</h2>
-            <p>Приложение</p>
+            <a href="" class="projects-link">
+              <img src="./images/img25.jpg" alt="Проект" width="370" />
+              <h2 class="title">Проект Boxes</h2>
+              <p class="text">Приложение</p>
+            </a>
           </li>
 
           <li>
-            <img src="./images/img26.jpg" alt="Проект" width="370" />
-            <h2>Inspiration has no Borders</h2>
-            <p>Веб-сайт</p>
+            <a href="" class="projects-link">
+              <img src="./images/img26.jpg" alt="Проект" width="370" />
+              <h2 class="title">Inspiration has no Borders</h2>
+              <p class="text">Веб-сайт</p>
+            </a>
           </li>
 
           <li>
-            <img src="./images/img27.jpg" alt="Проект" width="370" />
-            <h2>Издание Limited Edition</h2>
-            <p>Дизайн</p>
+            <a href="" class="projects-link">
+              <img src="./images/img27.jpg" alt="Проект" width="370" />
+              <h2 class="title">Издание Limited Edition</h2>
+              <p class="text">Дизайн</p>
+            </a>
+          </li>
+          <li>
+            <a href="" class="projects-link">
+              <img src="./images/img28.jpg" alt="Проект" width="370" />
+              <h2 class="title">Проект LAB</h2>
+              <p class="text">Маркетинг</p>
+            </a>
           </li>
 
           <li>
-            <img src="./images/img28.jpg" alt="Проект" width="370" />
-            <h2>Проект LAB</h2>
-            <p>Маркетинг</p>
-          </li>
-
-          <li>
-            <img src="./images/img29.jpg" alt="Проект" width="370" />
-            <h2>Growing Business</h2>
-            <p>Приложение</p>
+            <a href="" class="projects-link">
+              <img src="./images/img29.jpg" alt="Проект" width="370" />
+              <h2 class="title">Growing Business</h2>
+              <p class="text">Приложение</p>
+            </a>
           </li>
         </ul>
       </section>
