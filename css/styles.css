@@ -3,12 +3,19 @@
   --title-text-color: #212121;
   --accent-color: #ffffff;
   --second-accent-color: #2196f3;
+  --background-color: #e5e5e5;
+  --second-background-color: #2f303a;
+  --logo-color:  #000000;
+  --button-background-color: #f5f4fa;
+  --footer-color:  rgba(255, 255, 255, 0.6);
+
+
 }
 
 body {
   font-family: Roboto, sans-serif;
   color: var(--primary-text-color);
-  background: #e5e5e5;
+  background: var(--background-color);
   font-style: normal;
 }
 
@@ -24,7 +31,7 @@ ul {
 
 /* logo */
 .logo {
-  color: #000000;
+  color: var(--logo-color)
   text-decoration: none;
   font-family: Raleway, sans-serif;
   font-style: normal;
@@ -46,7 +53,7 @@ ul {
 
 /* Order service */
 .order-service {
-  background: #2f303a;
+  background: var(--second-background-color);
   color: var(--accent-color);
 }
 
@@ -79,6 +86,7 @@ ul {
   border: 1px solid;
   border-color: var(--second-accent-color);
 }
+
 /* Nav links */
 .nav-links .link {
   color: var(--title-text-color);
@@ -198,7 +206,7 @@ ul {
 }
 
 .footer-links .link {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--footer-color);
   text-decoration: none;
   font-family: Roboto, sans-serif;
   font-style: normal;
@@ -217,7 +225,7 @@ ul {
 }
 
 .page-footer {
-  background: #2f303a;
+  background: var(--second-background-color);
 }
 
 .logo-footer {
@@ -234,7 +242,7 @@ ul {
 /* Стили для portfolio.html */
 .button-links .link {
   color: var(--title-text-color);
-  background: #f5f4fa;
+  background: var(--button-background-color);
   text-decoration: none;
   font-family: Roboto, sans-serif;
   font-style: normal;
@@ -245,7 +253,7 @@ ul {
 
 .button-links .link:hover,
 .button-links .link:focus {
-  color: #f5f4fa;
+  color: var(--button-background-color);
   background: var(--second-accent-color);
 }
 
