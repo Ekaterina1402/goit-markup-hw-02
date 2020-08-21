@@ -4,18 +4,16 @@
   --accent-color: #ffffff;
   --second-accent-color: #2196f3;
   --background-color: #e5e5e5;
+  --black-color: #000000;
   --second-background-color: #2f303a;
-  --logo-color:  #000000;
-  --button-background-color: #f5f4fa;
-  --footer-color:  rgba(255, 255, 255, 0.6);
-
-
+  --third-background-color: #f5f4fa;
+  --footer-color: rgba(255, 255, 255, 0.6);
 }
 
 body {
   font-family: Roboto, sans-serif;
   color: var(--primary-text-color);
-  background: var(--background-color);
+  background: var(--V);
   font-style: normal;
 }
 
@@ -31,7 +29,7 @@ ul {
 
 /* logo */
 .logo {
-  color: var(--logo-color)
+  color: var(--black-color);
   text-decoration: none;
   font-family: Raleway, sans-serif;
   font-style: normal;
@@ -206,7 +204,7 @@ ul {
 }
 
 .footer-links .link {
-  color: var(--footer-color);
+  color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
   font-family: Roboto, sans-serif;
   font-style: normal;
@@ -242,7 +240,7 @@ ul {
 /* Стили для portfolio.html */
 .button-links .link {
   color: var(--title-text-color);
-  background: var(--button-background-color);
+  background: var(--third-background-color);
   text-decoration: none;
   font-family: Roboto, sans-serif;
   font-style: normal;
@@ -253,7 +251,7 @@ ul {
 
 .button-links .link:hover,
 .button-links .link:focus {
-  color: var(--button-background-color);
+  color: var(--third-background-color);
   background: var(--second-accent-color);
 }
 
